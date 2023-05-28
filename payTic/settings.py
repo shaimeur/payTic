@@ -76,8 +76,8 @@ WSGI_APPLICATION = 'payTic.wsgi.application'
 
 DATABASES = {
    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ETL',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'etl',
         'USER': 'root',
         'PASSWORD': 'azerty123*',
         'HOST': 'localhost',
